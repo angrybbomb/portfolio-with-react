@@ -22,6 +22,7 @@
 
 * {
 	box-sizing: border-box;
+	transition: all 0.5s;
 	font-family: 'GoogleSans', 'Gill Sans', 'Gill Sans MT', Calibri,
 		'Trebuchet MS', sans-serif;
 }
