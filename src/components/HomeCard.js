@@ -2,7 +2,7 @@ import {GiBookshelf, GiThorHammer} from 'react-icons/gi'
 import React, {useState} from 'react'
 
 import {Col} from 'react-bootstrap'
-import {DiJavascript1} from 'react-icons/di'
+import {DiVisualstudio} from 'react-icons/di'
 import {FaGuitar} from 'react-icons/fa'
 import {GoRepo} from 'react-icons/go'
 import HomeModal from './HomeModal'
@@ -15,7 +15,7 @@ function seticon(iconName, size) {
 	else if (iconName === 'GiThorHammer')
 		return <GiThorHammer color='#fff' size={size} />
 	else if (iconName === 'DiJavascript1')
-		return <DiJavascript1 color='#fff' size={size} />
+		return <DiVisualstudio color='#fff' size={size} />
 	else if (iconName === 'GoRepo') return <GoRepo color='#fff' size={size} />
 	else if (iconName === 'TiSocialAtCircular')
 		return <TiSocialAtCircular color='#fff' size={size} />

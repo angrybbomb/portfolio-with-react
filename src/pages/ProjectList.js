@@ -12,8 +12,7 @@ function ProjectList({ProjectListVal}) {
 					return 0
 				}).map((Obj, index) => {
 					return (
-						<a
-							href={Obj.projectRoute}
+						<div
 							key={`project-list-item-${index}`}
 							className='project_list_item_link'>
 							<div
@@ -28,11 +27,6 @@ function ProjectList({ProjectListVal}) {
 								className='project_list_item'>
 								<h3>
 									{Obj.title}
-									{Obj.githubUrl && (
-										<a href={Obj.githubUrl}>
-											<AiFillGithub className='projectGithubIcon' />
-										</a>
-									)}
 								</h3>
 								{Object.keys(Obj.badgeTitle).map((item, index) => {
 									return (
@@ -43,7 +37,7 @@ function ProjectList({ProjectListVal}) {
 								})}
 								<p>{Obj.description}</p>
 							</div>
-						</a>
+						</div>
 					)
 				})}
 		</div>

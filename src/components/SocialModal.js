@@ -65,15 +65,15 @@ function SocialModal() {
 					<Icon label='github'>
 						<AiOutlineGithub size={35} />
 						<CustomLink href='https://github.com/pranjaljain0' target='_blank'>
-							@pranjaljain0
+							@angrybbomb
 						</CustomLink>
 					</Icon>
 					<Icon label='linkedin'>
 						<AiOutlineLinkedin size={35} />
 						<CustomLink
-							href='https://www.linkedin.com/in/pranjaljain0/'
+							href='https://www.linkedin.com/in/angrybbomb/'
 							target='_blank'>
-							@pranjaljain0
+							@angrybbomb
 						</CustomLink>
 					</Icon>
 				</SocialIcons>

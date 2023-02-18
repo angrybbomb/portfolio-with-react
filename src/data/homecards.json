@@ -74,7 +74,7 @@
 			"title": "Coding",
 			"value": [
 				{
-					"title": "Python",
+					"title": "JavaScript(NextJS, NuxtJS, ExpressJS)",
 					"level": "Advance"
 				},
 				{
@@ -82,36 +82,36 @@
 					"level": "Advance"
 				},
 				{
-					"title": "PHP",
+					"title": "CSS(TailWind CSS, Material-UI)",
 					"level": "Advance"
 				},
 				{
-					"title": "JAVA",
+					"title": "WebGL(Three.js, Babylon.js, vtk.js)",
 					"level": "Advance"
 				},
 				{
-					"title": "C++",
+					"title": "GraphQL",
 					"level": "Advance"
 				},
 				{
-					"title": "C",
+					"title": "PHP(Laravel, CakePHP)",
 					"level": "Advance"
 				},
 				{
-					"title": "Android",
+					"title": "SQL(MySQL, PostgreSQL)",
+					"level": "Advance"
+				},
+				{
+					"title": "NoSQL(MongoDB, Amazon DynamoDB)",
+					"level": "Advance"
+				},
+				{
+					"title": "Python(Django)",
 					"level": "Intermediate"
 				},
 				{
-					"title": "JS",
+					"title": "C/C++(ASP.NET)",
 					"level": "Intermediate"
-				},
-				{
-					"title": "MongoDB",
-					"level": "Intermediate"
-				},
-				{
-					"title": "ReactJS",
-					"level": "Beginner"
 				}
 			],
 			"route": "/languages",
@@ -157,57 +157,13 @@
 			"value": [
 				{
 					"title": "New Jersey Institute of Technology",
-					"duration": "2021-2023",
+					"duration": "2011-2013",
 					"location_city": "Newark",
 					"location_state": "New Jersey",
 					"location_country": "US",
 					"description": "Masters of Scinece",
 					"sec_details": "Computer Science & Technology",
 					"color": "#fef54b",
-					"text": "#1d1d1d"
-				},
-				{
-					"title": "Avantika University",
-					"duration": "2017-2021",
-					"location_city": "Ujjain",
-					"location_state": "Madhya Pradesh",
-					"location_country": "IN",
-					"description": "Bachelor of Technology",
-					"sec_details": "Specialization : Computer Science engineering",
-					"color": "#fef54b",
-					"text": "#1d1d1d"
-				},
-				{
-					"title": "The Sanskaar Valley School",
-					"duration": "2012 - 2016",
-					"location_city": "Bhopal",
-					"location_state": "Madhya Pradesh",
-					"location_country": "IN",
-					"description": "High school",
-					"sec_details": "ISC- 66%; ICSE- 87%",
-					"color": "#ffe54a",
-					"text": "#1d1d1d"
-				},
-				{
-					"title": "The Scindia School",
-					"duration": "2008 - 2011",
-					"location_city": "Gwalior",
-					"location_state": "Madhya Pradesh",
-					"location_country": "IN",
-					"description": "High school",
-					"sec_details": "",
-					"color": "#ffd448",
-					"text": "#1d1d1d"
-				},
-				{
-					"title": "St. Joseph's Co-ed School ",
-					"duration": "2003 - 2007",
-					"location_city": "Bhopal",
-					"location_state": "Madhya Pradesh",
-					"location_country": "IN",
-					"description": "Middle school",
-					"sec_details": "",
-					"color": "#ffc446",
 					"text": "#1d1d1d"
 				}
 			],

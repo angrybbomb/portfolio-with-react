@@ -16,15 +16,12 @@ function Navigation() {
 			<Navbar variant='dark' expand='lg' fixed='top' className='nvabar-custon'>
 				<a href='/' className='navbar_logo_container'>
 					<img src={PortfolioLogo} className='navbar_logo' alt='navbar_logo' />
-					<span>Pranjal Jain</span>
+					<span>Billy Lambert</span>
 				</a>
 				<Navbar.Toggle aria-controls='basic-navbar-nav' />
 				<Navbar.Collapse id='basic-navbar-nav'>
 					<Nav className='mr-auto'></Nav>
 					<Nav className='navbar-right'>
-						<Nav.Link href='http://blog.pranjaljain.me'>
-							<Button className='moving-gradient'>Blogs</Button>
-						</Nav.Link>
 						<Nav.Link>
 							<Button
 								variant='light'
@@ -54,20 +51,9 @@ function Navigation() {
 								/>
 							</Button>
 						</Nav.Link>
-						<Nav.Link
-							aria-label='Github'
-							href='https://github.com/pranjaljain0'>
+						<Nav.Link aria-label='Github' href='https://github.com/angrybbomb'>
 							<FaGithub
 								aria-label='Github'
-								color='rgba(255,255,255,0.8)'
-								size='1.5em'
-							/>
-						</Nav.Link>
-						<Nav.Link
-							aria-label='Linked In'
-							href='https://www.linkedin.com/in/pranjaljain0/'>
-							<FaLinkedin
-								aria-label='Linked In'
 								color='rgba(255,255,255,0.8)'
 								size='1.5em'
 							/>
